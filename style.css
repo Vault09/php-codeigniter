@@ -1,0 +1,213 @@
+.navbar{
+  font-size: 22px;
+  font-family: Bradley Hand, cursive;
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  background-color: #80d4ff;
+  z-index: 1
+
+  .card{
+    position:
+ relative;
+ left: 30%;
+ top:100px;
+  }
+}
+
+.navbar-brand{
+  font-size: 32px;
+  font color: #00ace6;
+  font-family: Bradley Hand, cursive;
+}
+
+.nav-link{
+  font color: #333;  
+}
+
+
+.form-style-8{
+  position: relative;
+  left: -15%;
+  top: 110px;
+  font-family: 'Open Sans Condensed', arial, sans;
+  width: 30%;
+  z-index: 1;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+  background: #4D4D4D;
+  text-transform: uppercase;
+  font-family: 'Bradley Hand', cursive;
+  color: #797979;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="url"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Bradley Hand, cursive;
+  height: 45px;
+}
+.form-style-8 textarea{
+  resize:none;
+  overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+  -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  background-color: #2CBBBB;
+  border: 1px solid #27A0A0;
+  display: block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: Bradley Hand, cursive;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {
+  background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+  background-color:#34CACA;
+}
+
+:root {
+  --space: 2rem;
+  --radius: 0.15rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+  color: #e6e6e6;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.page-header {
+  margin: calc(var(--space) * 4) 0;
+  padding: 0 var(--space);
+}
+
+.page-header__title {
+  margin: 0;
+  font-size: clamp(3rem, 10vw, 6rem);
+}
+
+.page-section {
+  overflow: hidden;
+  margin: calc(var(--space) * 4) 0;
+}
+
+.page-section__title {
+  margin: calc(var(--space) / 2) 0;
+  padding: 0 var(--space);
+  font-size: clamp(2rem, 5vw, 3rem);
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  padding: var(--space);
+  overflow: scroll;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.cards::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+.cards > * + * {
+  margin-left: var(--space);
+}
+.cards::after {
+  content: "";
+  display: block;
+  flex: 0 0 var(--space);
+}
+
+.card {
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: 250px;
+  opacity: 0;
+  background-color: #e6e6e6;
+  border-radius: var(--radius);
+  overflow: hidden;
+  transform: translateX(400px);
+}
+
+.card__image {
+  width: 100%;
+  background-color: #70c2b4;
+}
+.card__image::before {
+  content: "";
+  display: block;
+  padding-bottom: calc(100% / (16 / 9));
+}
+
+.card__content {
+  padding: var(--space);
+}
+
+.card__title {
+  margin-bottom: calc(var(--space) / 2);
+  width: 70%;
+  height: 24px;
+  border-radius: var(--radius);
+  background-color: #f25c5a;
+}
+
+.card__line {
+  height: 12px;
+  background-color: #24799e;
+  border-radius: var(--radius);
+}
+.card__line + .card__line {
+  margin-top: calc(var(--space) / 4);
+}
+.card__line:last-child {
+  width: 60%;
+}
+.navbar{
+  top: 0px;
+  font-size: 22px;
+  font-family: Bradley Hand, cursive;
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  background-color: #6fdcdc;
+  z-index: 1;
+}
